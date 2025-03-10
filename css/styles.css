@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color:antiquewhite;
+}
+
+h2 {
+    color: #ebc0e9;
+    font-size: larger;
+    text-align: center;
+}
+
+/*.about {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}*/
+
+.metamorphous-regular {
+    font-family: "Metamorphous", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: x-large;
+    color: #ebc0e9;
+    text-align: center;
+  }  
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.card {
+    background-color: black;
+    color: antiquewhite;
+    /*border-color: #181718;*/
+    border-radius: 15px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    color: #ebc0e9
+}
+
+.card-subtitle {
+    color:#917a8f;
+    font-style: italic;
+}
+
+.card-link {
+    color:#ebc0e9;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.contact-form {
+    color:antiquewhite;
+    margin: auto;
+    display: flex;
+    align-self: center;
+}
+
+.custom-box-shadow {
+    margin: auto;
+    background-color: black;
+    color:antiquewhite
+}
+
+.important {
+    color:antiquewhite;
+    text-align: center;
+}
