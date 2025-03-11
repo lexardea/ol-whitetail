@@ -1,3 +1,5 @@
+/*-- ELEMENTS --*/
+
 body {
     background-color: black;
     color:antiquewhite;
@@ -5,24 +7,39 @@ body {
 
 h2 {
     color: #ebc0e9;
-    font-size: larger;
+    font-size: xx-large;
     text-align: center;
 }
 
-/*.about {
+h3 {
+    color: #ebc0e9;
+    font-size: large;
+}
+
+h4 {
+    color: #917a8f;
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    color: antiquewhite
+}
+
+
+/*-- CLASSES  --*/
+
+.album-cover {
+    width: 30%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-}*/
+}
 
-.metamorphous-regular {
-    font-family: "Metamorphous", serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: x-large;
+.btn-link {
+    text-decoration: none;
     color: #ebc0e9;
-    text-align: center;
-  }  
+}  
 
 .center {
     display: block;
@@ -32,9 +49,8 @@ h2 {
   }
 
 .card {
-    background-color: black;
-    color: antiquewhite;
-    /*border-color: #181718;*/
+    background-color: #917a8f;
+    color:black;
     border-radius: 15px;
 }
 
@@ -44,12 +60,12 @@ h2 {
 }
 
 .card-subtitle {
-    color:#917a8f;
+    color:black;
     font-style: italic;
 }
 
 .card-link {
-    color:#ebc0e9;
+    color: darkmagenta;
     font-style: italic;
     text-decoration: none;
 }
@@ -67,7 +83,50 @@ h2 {
     color:antiquewhite
 }
 
+.form-group {
+    max-width: 70%;
+    margin:auto;
+}
+
 .important {
     color:antiquewhite;
     text-align: center;
+}
+
+.list-group {
+    display: block;
+    align-self: center;
+}
+
+.list-group-item {
+    display: block;
+    align-self: center;
+    background-color: #917a8f;
+    color:antiquewhite
+}
+
+.metamorphous-regular {
+    font-family: "Metamorphous", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: x-large;
+    color: #ebc0e9;
+    text-align: center;
+}
+
+.music-link {
+    text-decoration: none;
+    color:antiquewhite;
+    align-self: center;
+}
+
+.pg-section {
+    max-width: 90%;
+    align-self: center;
+}
+
+.table {
+    max-width: 90%;
+    border-radius: 30px;
+    margin:auto;
 }

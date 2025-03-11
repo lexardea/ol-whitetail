@@ -11,79 +11,128 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<!--BODY-->
 <body>
 
-    <!--HEADER-->
     <header>
         <!--NAVIGATION MENU: static spans across top, hamburger for small screens-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white-50 fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../ol-whitetail-revamp/index.html">Ol Whitetail</a>
+                <a class="navbar-brand" href="../html/index.html">Ol Whitetail</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="../html/index.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../ol-whitetail-revamp/music-portfolio.html">Music Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="../ol-whitetail-revamp/selected-lyrics.html">Selected Lyrics</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="../ol-whitetail-revamp/html/yoga.html">Yoga + Holistic Health</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="../ol-whitetail-revamp/contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./music-portfolio.html">Music Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./yoga.html">Yoga + Holistic Health</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <br><br><br>
-    </header>
+        <br><br><br><br>
+
+    <!--BANNER IMAGE AND WEBSITE TITLE-->
+    <div class="container-fluid">
+        <img src="../images/ow-blk.png" alt="moon branches" class="center">
+        <br><br>
+        <h1 class="metamorphous-regular">Ol Whitetail</h1>
+    </div>
+    <br><br>
+</header>
 
     <!--PAGE TITLE: YOGA AND HOLISTIC HEALTH-->
     <h2>Yoga + Holistic Health</h2>   
-    <br> 
+    <br><br><br>
 
     <!--Yoga Section-->
-        <h3>Yoga</h3>
-        <p class="description">Description of approach to yoga teaching here. Describe classes, private teaching, integrations.</p>
+    <div class="container-fluid pg-section">
+        <h3 style="text-align: center;">Yoga</h3>
+        <p class="description" style="text-align: center;">Description of approach to yoga teaching here. Describe classes, private teaching, integrations.</p>
         <br>
 
-        <!--Classes and Styles Offered-->
-        <div>
-            <ul><h4>Classes and Styles I Teach</h4>
-                <li>Vinyasa Yoga</li>
-                <li>Yin Yoga</li>
-                <li>Slow + Steady at Ascend Point Breeze, Pittsburgh | Sundays 10 - 11am</li>
-                <li>Yoga Fundamentals at Ascend Point Breeze, Pittsburgh | Sundays 11:30 - 12:30pm</li>
-            </ul>
-        </div>
+        <!-- Classes and Styles Offered -->
+        <!-- List Groups: Boostrap component 3 -->
+        <ul class="list-group">
+            <h4 style="text-align: center;">Classes and Styles I Teach</h4>
+                <li class="list-group-item">Vinyasa Yoga</li>
+                <li class="list-group-item">Yin Yoga</li>
+                <li class="list-group-item">Slow + Steady at Ascend Point Breeze, Pittsburgh | Sundays 10 - 11am</li>
+                <li class="list-group-item">Yoga Fundamentals at Ascend Point Breeze, Pittsburgh | Sundays 11:30 - 12:30pm</li>
+        </ul>
+        <br><br>
 
         <!--Certifications List-->
         <div>
-            <ul><h4>Yoga Certifications</h4>
-                <li>Yoga and Meditation Teacher, 200-HR, Yoga Farm Ithaca, 2021</li>
-                <li>Yin Yoga Teacher, Anjali Yoga, 2024</li>
-                <li>Yin Yoga and Myofascial Release Techniques, 2024</li>
-                <li><em>Currently working towards a 300-hour yoga teacher certification with anticipated
+            <ul class="list-group">
+                <h4>Yoga Certifications</h4>
+                <li class="list-group-item">Yoga and Meditation Teacher, 200-HR, Yoga Farm Ithaca, 2021</li>
+                <li class="list-group-item">Yin Yoga Teacher, Anjali Yoga, 2024</li>
+                <li class="list-group-item">Yin Yoga and Myofascial Release Techniques, 2024</li>
+                <li class="list-group-item"><em>Currently working towards a 300-hour yoga teacher certification with anticipated
                     graduation in January 2026, which will bring me to the 500-hour level certification.</em>
                 </em></li>
-                <li><em>Additionally studying yoga nidra, restorative yoga, and chair yoga.</em></li>
+                <li class="list-group-item"><em>Additionally studying yoga nidra, restorative yoga, and chair yoga.</em></li>
             </ul>
         </div>
     </div>
+    <br><br>
 
-    <div class="container-fluid">
-        <h3>Holistic Health</h3>
+    <div class="container-fluid pg-section">
+        <h3 id="hh" style="text-align: center;">Holistic Health</h3>
         <br>
 
         <!--Classes and Styles Offered-->
-        <div class="custom-box-shadow">
-            <ul><h4>Classes and Styles I Teach</h4>
-                <li>Vinyasa Yoga</li>
-                <li>Yin Yoga</li>
-                <li>Slow + Steady at Ascend Point Breeze, Pittsburgh | Sundays 10 - 11am</li>
-                <li>Yoga Fundamentals at Ascend Point Breeze, Pittsburgh | Sundays 11:30 - 12:30pm</li>
+        <div>
+            <ul class="list-group">
+                <h4 id="schedule">Classes and Styles I Teach</h4>
+                <li class="list-group-item">Vinyasa Yoga</li>
+                <li class="list-group-item">Yin Yoga</li>
+                <li class="list-group-item">Slow + Steady at Ascend Point Breeze, Pittsburgh | Sundays 10 - 11am</li>
+                <li class="list-group-item">Yoga Fundamentals at Ascend Point Breeze, Pittsburgh | Sundays 11:30 - 12:30pm</li>
             </ul>
-        </div>
-    
+        </div>  
     </div>
 
+    <br><br><br>
+    <h2 id="pricing">Pricing</h2>
+    <br>
+    <table class="table table-bordered table-light">
+        <thead>
+          <tr>
+            <th scope="col">Service</th>
+            <th scope="col">Desription</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Individual Yoga Instruction, 60 minutes</td>
+            <td>One-on-one instruction and coaching to address your goals for your yoga practice.</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>Individual Yoga Instruction, 90 minutes</td>
+            <td>One-on-one instruction and coaching to address your goals for your yoga practice, plus vinyasas.</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>One-on-One Personal Fitness Training, 60 minutes</td>
+            <td>Focus on cardio and bodyweight strength training to meet fitness goals, option to integrate yoga.</td>
+            <td>$75</td>
+          </tr>
+          <tr>
+            <td>One-on-One Personal Fitness Training, 30 minutes</td>
+            <td>Focus on cardio and bodyweight strength training to meet fitness goals, option to integrate yoga.</td>
+            <td>$50</td>
+          </tr>
+          <tr>
+            <td>Nutrition Coaching, 45 minutes, online</td>
+            <td>Coaching sessions to improve your health by meeting your body's nutritional needs.</td>
+            <td>$50</td>
+          </tr>
+        </tbody>
+      </table>
+<br><br><br>
 </body>
